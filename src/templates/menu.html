@@ -28,6 +28,31 @@
     >
     </a-text>
   </a-entity>
+  <a-entity 
+  id="ad" 
+  position="-0.88 -0.25 0.34" 
+  rotation="0 57.2957795 0" 
+  geometry="primitive: plane; width: 1; height: 1" 
+  material="visible:false" scale="0.25 0.25 1" 
+  clickable="" ad-panel="" 
+  collider="group: menu; static: true" 
+  shape="type: rect">
+  
+  <!-- Replace the src URL with your own image URL -->
+  <a-plane 
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc7draL6G2Z6DOU7bBHh8ofcMGmRM_GZ8mhQ&s" 
+    width="0.75" 
+    height="0.625" 
+    transparent="true" 
+    shader="flat" 
+    side="double" 
+    class="clickable" 
+    material="" 
+    geometry="">
+  </a-plane>
+
+</a-entity>
+<!-- 
 <a-entity 
   id="ad" 
   position="-0.88 -0.25 0.34" 
@@ -48,6 +73,7 @@
     material="" geometry="">
   </a-plane>
 </a-entity>
+  --->
   <a-entity
     id="game-mode-panel"
     position="-0.745 -0.26 0.13"
