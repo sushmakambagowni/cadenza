@@ -12,16 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CadenzaVR/cadenza.git"
+    "url": "https://github.com/sushmakambagowni/cadenza.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CadenzaVR/cadenza/issues"
-  },
-  "homepage": "https://cadenzavr.com",
-  "engines": {
-    "node": ">=16"
+    "url": "https://github.com/sushmakambagowni/cadenza/issues"
   },
   "dependencies": {
     "@supabase/auth-ui-react": "^0.3.5",
@@ -66,5 +62,10 @@
     "webpack": "^5.69.1",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.4"
+  },
+  {
+  "scripts": {
+    "build": "[my-framework] build --output public"
   }
+}
 }
